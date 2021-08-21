@@ -1,0 +1,5 @@
+cmake ../aws-sdk-cpp -G "Visual Studio 15 Win64" -DCMAKE_BUILD_TYPE=Release -DBUILD_ONLY="s3;s3-crt"
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe" ALL_BUILD.vcxproj  -p:Configuration=Release
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe" INSTALL.vcxproj -p:Configuration=Release
